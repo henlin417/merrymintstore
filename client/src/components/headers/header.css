@@ -1,0 +1,59 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(183, 232, 213);
+}
+h1, ul{
+    background-color: rgb(183, 232, 213);
+}
+header .logo{
+    flex: 1;
+}
+header a{
+    text-transform: uppercase;
+    color: rgb(94, 107, 50);
+    background-color: rgb(183, 232, 213);
+}
+header ul li{
+    font-size: 22px;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: rgb(183, 232, 213);
+    transition: .3s ease-out; 
+    transition-delay: .3s;
+}
+header ul li:hover{
+    -webkit-transform: scale(1.2); 
+    transition-delay: .3s ease-out;
+}
+.menu{
+    display: none;
+}
+.cart-icon{
+    position: relative;
+    margin-right: 20px;
+}
+.cart-icon span{
+    background: crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+    padding: 5px 7px;
+    font-size: 10px;
+}
+img{
+    background-color: rgb(183, 232, 213);
+}
+.merrymintlogo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
